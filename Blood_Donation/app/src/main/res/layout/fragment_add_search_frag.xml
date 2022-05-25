@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".AddSearch_frag">
+
+    <Button
+        android:id="@+id/bttn_Add_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/add_new_donor" />
+
+    <Button
+        android:id="@+id/btn_Search_Donor"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/search_donor" />
+    <Button
+        android:id="@+id/btnf_B_group"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/seach_by_b_group" />
+</LinearLayout>

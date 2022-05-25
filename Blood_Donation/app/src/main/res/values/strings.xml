@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Blood_Donation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_to_mainactivity">Back to MainActivity</string>
+    <string name="find_your_donor">Find Your Donor</string>
+    <string name="find">Find</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_to_home">Back_To_Home</string>
+    <string name="add_donor">Add Donor</string>
+    <string name="enter_donor_name">Enter donor name</string>
+    <string name="enter_donor_blood_group">Enter donor blood group</string>
+    <string name="enter_location">Enter location</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="back_home">Back_Home</string>
+    <string name="search_by_name">Search by name</string>
+    <string name="search_bloodgroup_donor">Search BloodGroup Donor</string>
+    <string name="add_new_donor">Add New Donor</string>
+    <string name="search_donor">Search Donor</string>
+    <string name="name">Name</string>
+    <string name="phon">phon</string>
+    <string name="loc">TextView</string>
+    <string name="bgroup">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="b_group">b_group</string>
+    <string name="d_name">d_Name</string>
+    <string name="d_dname">d_dname</string>
+    <string name="d_dphn">d_dphn</string>
+    <string name="call_id">call_id</string>
+    <string name="loc_id">loc_id</string>
+    <string name="submit">Submit</string>
+    <string name="search_donor_by_name">Search donor by name</string>
+    <string name="dnM">Add Donor</string>
+    <string name="seach_by_blood_g">Seach By Blood_G</string>
+    <string name="DCAN">Cancel</string>
+    <string name="text_b_list">Text_b_list</string>
+    <string name="seach_by_b_group">Seach By B_group</string>
+    <string name="string_loc">\@string/loc</string>
+    <string name="string_bgroup">\@string/bgroup</string>
+</resources>

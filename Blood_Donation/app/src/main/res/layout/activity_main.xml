@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8D107"
+    android:id="@+id/layout_portraite"
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+
+
+    <fragment
+        android:id="@+id/f_list"
+        android:name="com.example.blood_donation.list_frag"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_list_frag" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/f_deatil"
+            android:name="com.example.blood_donation.detail_frag"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_detail_frag"
+            tools:ignore="NestedWeights" />
+
+        <fragment
+            android:id="@+id/f_AddSearch"
+            android:name="com.example.blood_donation.AddSearch_frag"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_add_search_frag" />
+    </LinearLayout>
+
+</LinearLayout>
